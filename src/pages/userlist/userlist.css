@@ -1,0 +1,23 @@
+.userlist {
+  
+  width: 100%;
+  margin: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  
+}
+
+@media (max-width: 720px) {
+  .userlist {
+    width: 100%;
+    overflow-x: auto;
+  }
+}

@@ -1,0 +1,143 @@
+.banner-logo {
+    width: 100%;
+}
+
+.banner-img {
+
+    width: 100vw;
+    height: 620px;
+}
+
+.banner-text-div {
+    position: absolute;
+    bottom: 110px;
+    left: 70px;
+
+
+}
+
+.orginalTag {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #f3e8e8;
+}
+
+.maim-text {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57.33px;
+    line-height: 70px;
+
+    color: #e8e5e5;
+}
+
+
+.quickest {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.2px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #f3e8e8;
+}
+
+.bttb-div {
+
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.bttn-one {
+    width: 200px;
+    height: 48px;
+
+    color: #000000;
+    background: #FFFFFF;
+
+}
+
+.bttn-two {
+
+    width: 200px;
+    height: 48px;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .banner-logo {
+        width: 100%;
+    }
+
+    .banner-img {
+        width: 100%;
+        height: 320px;
+    }
+
+    .banner-text-div {
+        position: relative;
+        bottom: auto;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .orginalTag {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
+        color: #f3e8e8;
+    }
+
+    .maim-text {
+        font-family: 'Century Gothic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #e8e5e5;
+    }
+
+    .quickest {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #f3e8e8;
+    }
+
+    .bttb-div {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bttn-one {
+        width: 80%;
+        height: 40px;
+        color: #000000;
+        background: #FFFFFF;
+    }
+
+    .bttn-two {
+        width: 80%;
+        height: 40px;
+        color: #FFFFFF;
+        background: #000000;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,114 @@
+.footer-main-div {
+  background-color: #f5f5f5;
+  padding: 0px 0px;
+  margin-top: 60px;
+  text-align: start;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 4fr 2fr 2fr 4fr;
+  gap: 60px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.box-logo h1 {
+  margin-top: 64px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.box-logo p {
+
+  margin-top: 24px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: black;
+}
+
+.box-link h1 {
+  margin-top: 64px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+
+}
+
+.box-link ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.box-link li {
+  color: black;
+  font-size: 14px;
+  line-height: 2;
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: rgb(81, 79, 79);
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.box-last h1 {
+  margin-top: 64px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.box-last p {
+  color: black;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+
+}
+
+.right-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.box-input {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 14px;
+  padding: 10px;
+  width: 300px;
+}
+
+.box-btn {
+  background-color: black;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 15px 70px;
+  margin-top: 24px;
+  font-weight: 600;
+  font-size: 13.33px;
+  line-height: 18px;
+  width: 200px;
+  height: 48px;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
