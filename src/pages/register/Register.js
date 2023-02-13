@@ -58,10 +58,12 @@ const Register = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    console.log("datatatat", formData);
     if (validateForm()) {
       event.preventDefault();
       let users = JSON.parse(localStorage.getItem("users")) || [];
-      let newUser = formData;
+      console.log("datatatat", formData);
+      let newUser = { firstName: formData.firstName, lastName: formData.lastName, email: formData.email, password: formData.password };
       users.push(newUser);
       localStorage.setItem("users", JSON.stringify(users));
       setFirstName("");
